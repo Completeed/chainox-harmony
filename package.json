@@ -1,0 +1,41 @@
+{
+  "name": "chainox-harmony",
+  "version": "0.7.8",
+  "license": "MIT",
+  "description": "Core contracts for the ChainOx protocol on Harmony",
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chainox-official/chainox-harmony.git"
+  },
+  "keywords": [
+    "chainox",
+    "chainox contracts",
+    "harmony"
+  ],
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "truffle-flattener": "^1.5.0",
+    "@truffle/contract": "^4.4.6",
+    "@truffle/hdwallet-provider": "^2.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.4",
+    "hardhat": "^2.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/chainox-official/chainox-harmony/issues"
+  },
+  "homepage": "https://github.com/chainox-official/chainox-harmony#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ChainOx"
+}
